@@ -2389,13 +2389,13 @@
 		/*background-color: black;*/
 	}
 
-		.thumbnails a {
+		.thumbnails {
 			-moz-transition: all 0.2s ease;
 			-webkit-transition: all 0.2s ease;
 			-ms-transition: all 0.2s ease;
 			transition: all 0.2s ease;
 			border-bottom: none;
-			display: block;
+			/*display: block;*/
 			width: 100%;
 			margin: 0 0 2em 0;
 			text-align: center;
@@ -2405,6 +2405,7 @@
 			cursor: pointer;
 			outline: 0;
 			overflow: hidden;
+			font-size: 25px
 		}
 
 			.thumbnails a img {
@@ -2464,6 +2465,7 @@
 			-ms-flex-direction: column;
 			flex-direction: column;
 			width: calc(100% / 2);
+			
 			/*opacity:0;*/
 			/*padding-left: 2em;*/
 		}
